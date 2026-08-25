@@ -1,15 +1,15 @@
 # Badal Kariwal
 
-**Founder of two shipped products. I build AI agents, LLM integrations, automations, and MVPs — working software in days.**
+**Founder of multiple agencies — Ephoria & SutraHaus, run end to end. I build AI agents, LLM integrations, automations, and MVPs — working software in days.**
 
 Fixed scope, fixed price, working software in 3–7 days. If you want proof before you spend anything: **I build a working version of your tool in 48 hours, free — you keep it either way.**
 
 🟢 Currently taking **2 build slots**.
 
-## Shipped products
+## My agencies
 
-- **[ephoria.io](https://ephoria.io)** — caregiver-hiring SaaS I founded and built end to end. An AI screening agent: LLM classification inside a deterministic state machine, guardrails enforced in code (automation disclosure, hard STOP compliance, quiet hours).
-- **[sutrahaus.com](https://sutrahaus.com)** — AI creative studio I founded: custom LoRA training, ComfyUI pipelines on RunPod, real client portfolio.
+- **[ephoria.io](https://ephoria.io)** — my agency for caregiver-hiring automation, founded and built end to end. An AI screening agent: LLM classification inside a deterministic state machine, guardrails enforced in code (automation disclosure, hard STOP compliance, quiet hours).
+- **[sutrahaus.com](https://sutrahaus.com)** — my AI creative studio agency: custom LoRA training, ComfyUI pipelines on RunPod, real client portfolio.
 
 ## What I work with
 
