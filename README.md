@@ -1,6 +1,6 @@
 # Badal Kariwal
 
-**I build internal tools, dashboards, and MVPs in days — 8 years of engineering, two shipped products.**
+**Founder of two shipped products. I build AI agents, LLM integrations, automations, and MVPs — working software in days.**
 
 Fixed scope, fixed price, working software in 3–7 days. If you want proof before you spend anything: **I build a working version of your tool in 48 hours, free — you keep it either way.**
 
@@ -8,12 +8,12 @@ Fixed scope, fixed price, working software in 3–7 days. If you want proof befo
 
 ## Shipped products
 
-- **[ephoria.io](https://ephoria.io)** — caregiver-hiring automation SaaS, designed, built, and launched solo. Live in-browser conversational screener backed by a real state machine + parser, with enforced guardrails (automation disclosure, hard STOP compliance, quiet hours).
-- **[sutrahaus.com](https://sutrahaus.com)** — productized AI creative studio with a real client portfolio.
+- **[ephoria.io](https://ephoria.io)** — caregiver-hiring SaaS I founded and built end to end. An AI screening agent: LLM classification inside a deterministic state machine, guardrails enforced in code (automation disclosure, hard STOP compliance, quiet hours).
+- **[sutrahaus.com](https://sutrahaus.com)** — AI creative studio I founded: custom LoRA training, ComfyUI pipelines on RunPod, real client portfolio.
 
 ## What I work with
 
-TypeScript · React · Node.js · Python · Cloudflare (Workers, Pages, D1, KV) · PostgreSQL · SQLite · REST/webhook integrations (Stripe, Twilio) · enterprise data-platform engineering (pipelines, warehousing, governance)
+LLM APIs (Claude · OpenAI · Gemini) · AI agents & automations · TypeScript · React · Node.js · Python · ComfyUI · LoRA training · RunPod · Cloudflare (Workers, Pages, D1) · PostgreSQL · Stripe · Twilio
 
 ## Links
 
