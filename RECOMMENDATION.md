@@ -1,3 +1,9 @@
+> **SUPERSEDED — see [`docs/CORRECTED-FINDINGS.md`](docs/CORRECTED-FINDINGS.md).**
+> This document assumes one reference video per finished ad, which is not the
+> operator's situation, and its diagnosis of the prior MiniMax failures was
+> wrong on all three counts. The measured decomposition results it cites still
+> stand; the premises and conclusions do not.
+
 # Recommendation
 
 ## Read these three things before anything else
