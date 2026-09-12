@@ -1,0 +1,1504 @@
+{
+  "schema_version": "1.1.0",
+  "source": {
+    "path": "work/refs/real_composite_ad.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "codec": "h264",
+    "duration": 22.541995,
+    "aspect_ratio": "16:9",
+    "sha256": "887aefa000e9f9bb40037e79aaf57f904fd7214c1f73acab419ca3fa2f2a66b3"
+  },
+  "timing": {
+    "n_shots": 16,
+    "cut_times": [
+      0.5,
+      0.916667,
+      1.416667,
+      2.0,
+      2.5,
+      4.708333,
+      5.832682,
+      6.416016,
+      7.249349,
+      9.041016,
+      11.041016,
+      13.249349,
+      16.249349,
+      18.666016,
+      20.666016
+    ],
+    "shot_durations": [
+      0.5,
+      0.416667,
+      0.5,
+      0.583333,
+      0.5,
+      2.208333,
+      1.124349,
+      0.583334,
+      0.833333,
+      1.791667,
+      2.0,
+      2.208333,
+      3.0,
+      2.416667,
+      2.0,
+      1.875979
+    ],
+    "median_shot_duration": 1.458,
+    "p10_shot_duration": 0.5,
+    "p90_shot_duration": 2.3125,
+    "cuts_per_second": 0.6654,
+    "rhythm_profile": "brisk_commercial"
+  },
+  "shots": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 0.5,
+      "duration": 0.5,
+      "camera_move": "static",
+      "camera_move_confidence": 0.657,
+      "motion_metrics": {
+        "n_pairs": 11,
+        "n_usable": 11,
+        "dt": 0.0419,
+        "cum_scale": 1.0072,
+        "scale_rate_per_s": 0.0156,
+        "rot_rate_deg_per_s": 2.928,
+        "vx_frac_per_s": 0.0033,
+        "vy_frac_per_s": -0.0056,
+        "peak_vx_frac_per_s": 0.0086,
+        "jitter_frac_per_s": 0.0058,
+        "drift_frac_per_s": 0.0065,
+        "mean_tracked_frac": 0.996,
+        "scores": {
+          "orbit": 0.732,
+          "push_in": 0.445,
+          "tilt_down": 0.282
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 64.24,
+        "contrast": 55.19,
+        "mean_saturation": 170.95,
+        "key": "low_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "low_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#080424",
+        "#3a3d34",
+        "#746a39",
+        "#c49e40",
+        "#c29b92"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 0.04,
+          "path": "work/out/real_ad/frames/shot000_first_0.040.jpg",
+          "position": "first"
+        },
+        {
+          "t": 0.25,
+          "path": "work/out/real_ad/frames/shot000_middle_0.250.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 0.46,
+          "path": "work/out/real_ad/frames/shot000_last_0.460.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "hook",
+      "on_beat": false
+    },
+    {
+      "index": 1,
+      "start": 0.5,
+      "end": 0.916667,
+      "duration": 0.416667,
+      "camera_move": "push_in",
+      "camera_move_confidence": 0.735,
+      "motion_metrics": {
+        "n_pairs": 10,
+        "n_usable": 9,
+        "dt": 0.0419,
+        "cum_scale": 1.0137,
+        "scale_rate_per_s": 0.0362,
+        "rot_rate_deg_per_s": -0.099,
+        "vx_frac_per_s": 0.0005,
+        "vy_frac_per_s": -0.0033,
+        "peak_vx_frac_per_s": 0.001,
+        "jitter_frac_per_s": 0.0007,
+        "drift_frac_per_s": 0.0034,
+        "mean_tracked_frac": 1.0,
+        "scores": {
+          "push_in": 1.034,
+          "tilt_down": 0.167,
+          "orbit": 0.025
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 82.42,
+        "contrast": 51.66,
+        "mean_saturation": 138.6,
+        "key": "mid_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "mid_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#394637",
+        "#6f733d",
+        "#05031d",
+        "#cac73a",
+        "#b69683"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 0.54,
+          "path": "work/out/real_ad/frames/shot001_first_0.540.jpg",
+          "position": "first"
+        },
+        {
+          "t": 0.7083,
+          "path": "work/out/real_ad/frames/shot001_middle_0.708.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 0.8767,
+          "path": "work/out/real_ad/frames/shot001_last_0.877.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "hook",
+      "on_beat": false
+    },
+    {
+      "index": 2,
+      "start": 0.916667,
+      "end": 1.416667,
+      "duration": 0.5,
+      "camera_move": "orbit",
+      "camera_move_confidence": 0.605,
+      "motion_metrics": {
+        "n_pairs": 12,
+        "n_usable": 11,
+        "dt": 0.0419,
+        "cum_scale": 0.9975,
+        "scale_rate_per_s": -0.0055,
+        "rot_rate_deg_per_s": 4.203,
+        "vx_frac_per_s": -0.0036,
+        "vy_frac_per_s": 0.0036,
+        "peak_vx_frac_per_s": 0.0093,
+        "jitter_frac_per_s": 0.0107,
+        "drift_frac_per_s": 0.0051,
+        "mean_tracked_frac": 0.993,
+        "scores": {
+          "orbit": 1.051,
+          "handheld": 0.358,
+          "tilt_up": 0.18,
+          "pull_out": 0.158
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 81.78,
+        "contrast": 74.37,
+        "mean_saturation": 127.3,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "saturated",
+        "description": "mid_key, high_contrast, saturated"
+      },
+      "palette": [
+        "#050319",
+        "#5b423a",
+        "#997668",
+        "#bbb5b2",
+        "#e1e8eb"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 0.9567,
+          "path": "work/out/real_ad/frames/shot002_first_0.957.jpg",
+          "position": "first"
+        },
+        {
+          "t": 1.1667,
+          "path": "work/out/real_ad/frames/shot002_middle_1.167.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 1.3767,
+          "path": "work/out/real_ad/frames/shot002_last_1.377.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "hook",
+      "on_beat": false
+    },
+    {
+      "index": 3,
+      "start": 1.416667,
+      "end": 2.0,
+      "duration": 0.583333,
+      "camera_move": "tilt_up",
+      "camera_move_confidence": 0.95,
+      "motion_metrics": {
+        "n_pairs": 14,
+        "n_usable": 13,
+        "dt": 0.0419,
+        "cum_scale": 0.988,
+        "scale_rate_per_s": -0.0221,
+        "rot_rate_deg_per_s": -3.707,
+        "vx_frac_per_s": 0.0691,
+        "vy_frac_per_s": 0.2652,
+        "peak_vx_frac_per_s": 0.0973,
+        "jitter_frac_per_s": 0.1662,
+        "drift_frac_per_s": 0.274,
+        "mean_tracked_frac": 0.911,
+        "scores": {
+          "tilt_up": 13.258,
+          "orbit": 0.927,
+          "pull_out": 0.632
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 106.16,
+        "contrast": 84.56,
+        "mean_saturation": 79.0,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, high_contrast, natural_saturation"
+      },
+      "palette": [
+        "#040210",
+        "#b9c0c3",
+        "#e5edf0",
+        "#4c3d3a",
+        "#958071"
+      ],
+      "speed_ramp": "ramp_up",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 1.4567,
+          "path": "work/out/real_ad/frames/shot003_first_1.457.jpg",
+          "position": "first"
+        },
+        {
+          "t": 1.7083,
+          "path": "work/out/real_ad/frames/shot003_middle_1.708.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 1.96,
+          "path": "work/out/real_ad/frames/shot003_last_1.960.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "hook",
+      "on_beat": false
+    },
+    {
+      "index": 4,
+      "start": 2.0,
+      "end": 2.5,
+      "duration": 0.5,
+      "camera_move": "pull_out",
+      "camera_move_confidence": 0.537,
+      "motion_metrics": {
+        "n_pairs": 12,
+        "n_usable": 11,
+        "dt": 0.0419,
+        "cum_scale": 0.9799,
+        "scale_rate_per_s": -0.044,
+        "rot_rate_deg_per_s": 3.115,
+        "vx_frac_per_s": 0.0001,
+        "vy_frac_per_s": 0.0014,
+        "peak_vx_frac_per_s": 0.0082,
+        "jitter_frac_per_s": 0.008,
+        "drift_frac_per_s": 0.0014,
+        "mean_tracked_frac": 0.991,
+        "scores": {
+          "pull_out": 1.257,
+          "orbit": 0.779,
+          "handheld": 0.268,
+          "tilt_up": 0.069
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 64.47,
+        "contrast": 57.82,
+        "mean_saturation": 173.31,
+        "key": "low_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "low_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#06031b",
+        "#3d4234",
+        "#816f37",
+        "#c29d7d",
+        "#cec839"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 2.04,
+          "path": "work/out/real_ad/frames/shot004_first_2.040.jpg",
+          "position": "first"
+        },
+        {
+          "t": 2.25,
+          "path": "work/out/real_ad/frames/shot004_middle_2.250.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 2.46,
+          "path": "work/out/real_ad/frames/shot004_last_2.460.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "hook",
+      "on_beat": true
+    },
+    {
+      "index": 5,
+      "start": 2.5,
+      "end": 4.708333,
+      "duration": 2.208333,
+      "camera_move": "push_in",
+      "camera_move_confidence": 0.83,
+      "motion_metrics": {
+        "n_pairs": 53,
+        "n_usable": 52,
+        "dt": 0.0419,
+        "cum_scale": 1.0864,
+        "scale_rate_per_s": 0.0381,
+        "rot_rate_deg_per_s": 0.055,
+        "vx_frac_per_s": -0.0006,
+        "vy_frac_per_s": -0.0022,
+        "peak_vx_frac_per_s": 0.0012,
+        "jitter_frac_per_s": 0.0012,
+        "drift_frac_per_s": 0.0023,
+        "mean_tracked_frac": 1.0,
+        "scores": {
+          "push_in": 1.087,
+          "tilt_down": 0.111,
+          "orbit": 0.014
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 101.96,
+        "contrast": 53.38,
+        "mean_saturation": 100.34,
+        "key": "mid_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, normal_contrast, natural_saturation"
+      },
+      "palette": [
+        "#364536",
+        "#6b7a3f",
+        "#c1cbd2",
+        "#c1bd38",
+        "#060504"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 2.54,
+          "path": "work/out/real_ad/frames/shot005_first_2.540.jpg",
+          "position": "first"
+        },
+        {
+          "t": 3.0721,
+          "path": "work/out/real_ad/frames/shot005_dense_1_3.072.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 3.6042,
+          "path": "work/out/real_ad/frames/shot005_middle_3.604.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 4.1362,
+          "path": "work/out/real_ad/frames/shot005_dense_3_4.136.jpg",
+          "position": "dense_3"
+        },
+        {
+          "t": 4.6683,
+          "path": "work/out/real_ad/frames/shot005_last_4.668.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "build",
+      "on_beat": true
+    },
+    {
+      "index": 6,
+      "start": 4.708333,
+      "end": 5.832682,
+      "duration": 1.124349,
+      "camera_move": "push_in",
+      "camera_move_confidence": 0.95,
+      "motion_metrics": {
+        "n_pairs": 27,
+        "n_usable": 16,
+        "dt": 0.0419,
+        "cum_scale": 1.4154,
+        "scale_rate_per_s": 0.3605,
+        "rot_rate_deg_per_s": -0.687,
+        "vx_frac_per_s": -0.1698,
+        "vy_frac_per_s": 0.2493,
+        "peak_vx_frac_per_s": 0.4986,
+        "jitter_frac_per_s": 0.3376,
+        "drift_frac_per_s": 0.3016,
+        "mean_tracked_frac": 0.576,
+        "scores": {
+          "push_in": 10.3,
+          "whip_pan": 2.77,
+          "orbit": 0.172
+        }
+      },
+      "shot_scale": "wide",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 108.33,
+        "contrast": 89.43,
+        "mean_saturation": 26.77,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "desaturated",
+        "description": "mid_key, high_contrast, desaturated"
+      },
+      "palette": [
+        "#060505",
+        "#b4bec4",
+        "#d6e2e8",
+        "#3a3737",
+        "#767c7f"
+      ],
+      "speed_ramp": null,
+      "transition_out": "dissolve",
+      "transition_out_confidence": 0.5,
+      "frames": [
+        {
+          "t": 4.7483,
+          "path": "work/out/real_ad/frames/shot006_first_4.748.jpg",
+          "position": "first"
+        },
+        {
+          "t": 5.2705,
+          "path": "work/out/real_ad/frames/shot006_middle_5.271.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 5.7927,
+          "path": "work/out/real_ad/frames/shot006_last_5.793.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "build",
+      "on_beat": false
+    },
+    {
+      "index": 7,
+      "start": 5.832682,
+      "end": 6.416016,
+      "duration": 0.583334,
+      "camera_move": "orbit",
+      "camera_move_confidence": 0.9,
+      "motion_metrics": {
+        "n_pairs": 14,
+        "n_usable": 14,
+        "dt": 0.0419,
+        "cum_scale": 1.1816,
+        "scale_rate_per_s": 0.2844,
+        "rot_rate_deg_per_s": 35.85,
+        "vx_frac_per_s": -0.1459,
+        "vy_frac_per_s": -0.3647,
+        "peak_vx_frac_per_s": 0.7678,
+        "jitter_frac_per_s": 0.4428,
+        "drift_frac_per_s": 0.3928,
+        "mean_tracked_frac": 0.652,
+        "scores": {
+          "orbit": 8.962,
+          "push_in": 8.126,
+          "whip_pan": 4.265
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 107.29,
+        "contrast": 95.96,
+        "mean_saturation": 27.43,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "desaturated",
+        "description": "mid_key, high_contrast, desaturated"
+      },
+      "palette": [
+        "#080706",
+        "#dce7ec",
+        "#bbc4c8",
+        "#3f3e40",
+        "#797e82"
+      ],
+      "speed_ramp": null,
+      "transition_out": "whip",
+      "transition_out_confidence": 0.6,
+      "frames": [
+        {
+          "t": 5.8727,
+          "path": "work/out/real_ad/frames/shot007_first_5.873.jpg",
+          "position": "first"
+        },
+        {
+          "t": 6.1243,
+          "path": "work/out/real_ad/frames/shot007_middle_6.124.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 6.376,
+          "path": "work/out/real_ad/frames/shot007_last_6.376.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "build",
+      "on_beat": false
+    },
+    {
+      "index": 8,
+      "start": 6.416016,
+      "end": 7.249349,
+      "duration": 0.833333,
+      "camera_move": "handheld",
+      "camera_move_confidence": 0.95,
+      "motion_metrics": {
+        "n_pairs": 20,
+        "n_usable": 15,
+        "dt": 0.0419,
+        "cum_scale": 1.5817,
+        "scale_rate_per_s": 0.576,
+        "rot_rate_deg_per_s": -20.947,
+        "vx_frac_per_s": 0.047,
+        "vy_frac_per_s": 0.4167,
+        "peak_vx_frac_per_s": 1.4128,
+        "jitter_frac_per_s": 0.7311,
+        "drift_frac_per_s": 0.4193,
+        "mean_tracked_frac": 0.614,
+        "scores": {
+          "handheld": 24.371,
+          "push_in": 16.457,
+          "whip_pan": 7.849,
+          "orbit": 5.237
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 79.92,
+        "contrast": 78.42,
+        "mean_saturation": 77.98,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, high_contrast, natural_saturation"
+      },
+      "palette": [
+        "#050510",
+        "#3a3638",
+        "#cdd6da",
+        "#7c685c",
+        "#aea39e"
+      ],
+      "speed_ramp": null,
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 6.456,
+          "path": "work/out/real_ad/frames/shot008_first_6.456.jpg",
+          "position": "first"
+        },
+        {
+          "t": 6.8327,
+          "path": "work/out/real_ad/frames/shot008_middle_6.833.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 7.2093,
+          "path": "work/out/real_ad/frames/shot008_last_7.209.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "build",
+      "on_beat": false
+    },
+    {
+      "index": 9,
+      "start": 7.249349,
+      "end": 9.041016,
+      "duration": 1.791667,
+      "camera_move": "pull_out",
+      "camera_move_confidence": 0.438,
+      "motion_metrics": {
+        "n_pairs": 42,
+        "n_usable": 42,
+        "dt": 0.0419,
+        "cum_scale": 0.9366,
+        "scale_rate_per_s": -0.0372,
+        "rot_rate_deg_per_s": 0.311,
+        "vx_frac_per_s": -0.0186,
+        "vy_frac_per_s": -0.006,
+        "peak_vx_frac_per_s": 0.0269,
+        "jitter_frac_per_s": 0.0119,
+        "drift_frac_per_s": 0.0195,
+        "mean_tracked_frac": 0.995,
+        "scores": {
+          "pull_out": 1.063,
+          "pan_right": 0.928,
+          "orbit": 0.078
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 58.12,
+        "contrast": 60.35,
+        "mean_saturation": 179.34,
+        "key": "low_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "low_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#060319",
+        "#413b2f",
+        "#776742",
+        "#b78e40",
+        "#c7a595"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 7.2893,
+          "path": "work/out/real_ad/frames/shot009_first_7.289.jpg",
+          "position": "first"
+        },
+        {
+          "t": 7.7173,
+          "path": "work/out/real_ad/frames/shot009_dense_1_7.717.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 8.1452,
+          "path": "work/out/real_ad/frames/shot009_middle_8.145.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 8.5731,
+          "path": "work/out/real_ad/frames/shot009_dense_3_8.573.jpg",
+          "position": "dense_3"
+        },
+        {
+          "t": 9.001,
+          "path": "work/out/real_ad/frames/shot009_last_9.001.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "mid",
+      "on_beat": false
+    },
+    {
+      "index": 10,
+      "start": 9.041016,
+      "end": 11.041016,
+      "duration": 2.0,
+      "camera_move": "push_in",
+      "camera_move_confidence": 0.788,
+      "motion_metrics": {
+        "n_pairs": 48,
+        "n_usable": 47,
+        "dt": 0.0419,
+        "cum_scale": 1.078,
+        "scale_rate_per_s": 0.0381,
+        "rot_rate_deg_per_s": -0.105,
+        "vx_frac_per_s": 0.0007,
+        "vy_frac_per_s": -0.0028,
+        "peak_vx_frac_per_s": 0.0013,
+        "jitter_frac_per_s": 0.0008,
+        "drift_frac_per_s": 0.0029,
+        "mean_tracked_frac": 1.0,
+        "scores": {
+          "push_in": 1.09,
+          "tilt_down": 0.14,
+          "orbit": 0.026
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 97.8,
+        "contrast": 53.5,
+        "mean_saturation": 98.43,
+        "key": "mid_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, normal_contrast, natural_saturation"
+      },
+      "palette": [
+        "#455741",
+        "#232c24",
+        "#75823f",
+        "#cac83b",
+        "#bfc9cd"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "hard_cut",
+      "transition_out_confidence": 0.8,
+      "frames": [
+        {
+          "t": 9.081,
+          "path": "work/out/real_ad/frames/shot010_first_9.081.jpg",
+          "position": "first"
+        },
+        {
+          "t": 9.561,
+          "path": "work/out/real_ad/frames/shot010_dense_1_9.561.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 10.041,
+          "path": "work/out/real_ad/frames/shot010_middle_10.041.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 10.521,
+          "path": "work/out/real_ad/frames/shot010_dense_3_10.521.jpg",
+          "position": "dense_3"
+        },
+        {
+          "t": 11.001,
+          "path": "work/out/real_ad/frames/shot010_last_11.001.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "mid",
+      "on_beat": true
+    },
+    {
+      "index": 11,
+      "start": 11.041016,
+      "end": 13.249349,
+      "duration": 2.208333,
+      "camera_move": "handheld",
+      "camera_move_confidence": 0.95,
+      "motion_metrics": {
+        "n_pairs": 53,
+        "n_usable": 50,
+        "dt": 0.0419,
+        "cum_scale": 0.8459,
+        "scale_rate_per_s": -0.0768,
+        "rot_rate_deg_per_s": -2.891,
+        "vx_frac_per_s": 0.0525,
+        "vy_frac_per_s": -0.0294,
+        "peak_vx_frac_per_s": 0.1988,
+        "jitter_frac_per_s": 0.2366,
+        "drift_frac_per_s": 0.0601,
+        "mean_tracked_frac": 0.654,
+        "scores": {
+          "handheld": 7.886,
+          "pull_out": 2.195,
+          "whip_pan": 1.104,
+          "orbit": 0.723
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 88.0,
+        "contrast": 77.06,
+        "mean_saturation": 60.87,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, high_contrast, natural_saturation"
+      },
+      "palette": [
+        "#05040d",
+        "#3b3636",
+        "#a4a9ab",
+        "#d4dbdf",
+        "#70665f"
+      ],
+      "speed_ramp": null,
+      "transition_out": "dissolve",
+      "transition_out_confidence": 0.5,
+      "frames": [
+        {
+          "t": 11.081,
+          "path": "work/out/real_ad/frames/shot011_first_11.081.jpg",
+          "position": "first"
+        },
+        {
+          "t": 11.6131,
+          "path": "work/out/real_ad/frames/shot011_dense_1_11.613.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 12.1452,
+          "path": "work/out/real_ad/frames/shot011_middle_12.145.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 12.6773,
+          "path": "work/out/real_ad/frames/shot011_dense_3_12.677.jpg",
+          "position": "dense_3"
+        },
+        {
+          "t": 13.2093,
+          "path": "work/out/real_ad/frames/shot011_last_13.209.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "mid",
+      "on_beat": true
+    },
+    {
+      "index": 12,
+      "start": 13.249349,
+      "end": 16.249349,
+      "duration": 3.0,
+      "camera_move": "static",
+      "camera_move_confidence": 0.565,
+      "motion_metrics": {
+        "n_pairs": 71,
+        "n_usable": 70,
+        "dt": 0.0419,
+        "cum_scale": 1.0038,
+        "scale_rate_per_s": 0.0013,
+        "rot_rate_deg_per_s": 3.852,
+        "vx_frac_per_s": 0.0026,
+        "vy_frac_per_s": 0.0062,
+        "peak_vx_frac_per_s": 0.0166,
+        "jitter_frac_per_s": 0.0135,
+        "drift_frac_per_s": 0.0067,
+        "mean_tracked_frac": 0.993,
+        "scores": {
+          "orbit": 0.963,
+          "handheld": 0.449,
+          "tilt_up": 0.311,
+          "push_in": 0.037
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 55.42,
+        "contrast": 58.28,
+        "mean_saturation": 186.86,
+        "key": "low_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "low_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#06031d",
+        "#3e3930",
+        "#7d582d",
+        "#a47e50",
+        "#cba788"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "dissolve",
+      "transition_out_confidence": 0.5,
+      "frames": [
+        {
+          "t": 13.2893,
+          "path": "work/out/real_ad/frames/shot012_first_13.289.jpg",
+          "position": "first"
+        },
+        {
+          "t": 13.776,
+          "path": "work/out/real_ad/frames/shot012_dense_1_13.776.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 14.2627,
+          "path": "work/out/real_ad/frames/shot012_dense_2_14.263.jpg",
+          "position": "dense_2"
+        },
+        {
+          "t": 14.7493,
+          "path": "work/out/real_ad/frames/shot012_middle_14.749.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 15.236,
+          "path": "work/out/real_ad/frames/shot012_dense_4_15.236.jpg",
+          "position": "dense_4"
+        },
+        {
+          "t": 15.7227,
+          "path": "work/out/real_ad/frames/shot012_dense_5_15.723.jpg",
+          "position": "dense_5"
+        },
+        {
+          "t": 16.2093,
+          "path": "work/out/real_ad/frames/shot012_last_16.209.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "payoff",
+      "on_beat": false
+    },
+    {
+      "index": 13,
+      "start": 16.249349,
+      "end": 18.666016,
+      "duration": 2.416667,
+      "camera_move": "static",
+      "camera_move_confidence": 0.568,
+      "motion_metrics": {
+        "n_pairs": 58,
+        "n_usable": 57,
+        "dt": 0.0419,
+        "cum_scale": 1.0847,
+        "scale_rate_per_s": 0.0335,
+        "rot_rate_deg_per_s": 0.102,
+        "vx_frac_per_s": -0.0003,
+        "vy_frac_per_s": -0.0004,
+        "peak_vx_frac_per_s": 0.0011,
+        "jitter_frac_per_s": 0.0038,
+        "drift_frac_per_s": 0.0005,
+        "mean_tracked_frac": 0.999,
+        "scores": {
+          "push_in": 0.956,
+          "handheld": 0.125,
+          "orbit": 0.025,
+          "tilt_down": 0.02
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 92.36,
+        "contrast": 47.16,
+        "mean_saturation": 104.98,
+        "key": "mid_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, normal_contrast, natural_saturation"
+      },
+      "palette": [
+        "#465744",
+        "#242e26",
+        "#728036",
+        "#b6b236",
+        "#aab4b9"
+      ],
+      "speed_ramp": "ramp_down",
+      "transition_out": "dissolve",
+      "transition_out_confidence": 0.5,
+      "frames": [
+        {
+          "t": 16.2893,
+          "path": "work/out/real_ad/frames/shot013_first_16.289.jpg",
+          "position": "first"
+        },
+        {
+          "t": 16.7567,
+          "path": "work/out/real_ad/frames/shot013_dense_1_16.757.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 17.224,
+          "path": "work/out/real_ad/frames/shot013_dense_2_17.224.jpg",
+          "position": "dense_2"
+        },
+        {
+          "t": 17.6913,
+          "path": "work/out/real_ad/frames/shot013_middle_17.691.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 18.1587,
+          "path": "work/out/real_ad/frames/shot013_dense_4_18.159.jpg",
+          "position": "dense_4"
+        },
+        {
+          "t": 18.626,
+          "path": "work/out/real_ad/frames/shot013_last_18.626.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "payoff",
+      "on_beat": false
+    },
+    {
+      "index": 14,
+      "start": 18.666016,
+      "end": 20.666016,
+      "duration": 2.0,
+      "camera_move": "handheld",
+      "camera_move_confidence": 0.814,
+      "motion_metrics": {
+        "n_pairs": 48,
+        "n_usable": 45,
+        "dt": 0.0419,
+        "cum_scale": 1.0011,
+        "scale_rate_per_s": 0.0005,
+        "rot_rate_deg_per_s": -1.462,
+        "vx_frac_per_s": 0.0378,
+        "vy_frac_per_s": 0.1283,
+        "peak_vx_frac_per_s": 0.1573,
+        "jitter_frac_per_s": 0.1949,
+        "drift_frac_per_s": 0.1337,
+        "mean_tracked_frac": 0.741,
+        "scores": {
+          "handheld": 6.495,
+          "tilt_up": 6.415,
+          "orbit": 0.365,
+          "push_in": 0.015
+        }
+      },
+      "shot_scale": "medium",
+      "shot_scale_confidence": 0.3,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 85.25,
+        "contrast": 73.65,
+        "mean_saturation": 61.64,
+        "key": "mid_key",
+        "contrast_class": "high_contrast",
+        "saturation_class": "natural_saturation",
+        "description": "mid_key, high_contrast, natural_saturation"
+      },
+      "palette": [
+        "#04030b",
+        "#bdc6ca",
+        "#353334",
+        "#665f59",
+        "#969697"
+      ],
+      "speed_ramp": "ramp_down",
+      "transition_out": "dissolve",
+      "transition_out_confidence": 0.5,
+      "frames": [
+        {
+          "t": 18.706,
+          "path": "work/out/real_ad/frames/shot014_first_18.706.jpg",
+          "position": "first"
+        },
+        {
+          "t": 19.186,
+          "path": "work/out/real_ad/frames/shot014_dense_1_19.186.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 19.666,
+          "path": "work/out/real_ad/frames/shot014_middle_19.666.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 20.146,
+          "path": "work/out/real_ad/frames/shot014_dense_3_20.146.jpg",
+          "position": "dense_3"
+        },
+        {
+          "t": 20.626,
+          "path": "work/out/real_ad/frames/shot014_last_20.626.jpg",
+          "position": "last"
+        }
+      ],
+      "role": "payoff",
+      "on_beat": false
+    },
+    {
+      "index": 15,
+      "start": 20.666016,
+      "end": 22.541995,
+      "duration": 1.875979,
+      "camera_move": "static",
+      "camera_move_confidence": 0.771,
+      "motion_metrics": {
+        "n_pairs": 44,
+        "n_usable": 44,
+        "dt": 0.0419,
+        "cum_scale": 0.982,
+        "scale_rate_per_s": -0.0099,
+        "rot_rate_deg_per_s": 0.03,
+        "vx_frac_per_s": -0.0033,
+        "vy_frac_per_s": -0.008,
+        "peak_vx_frac_per_s": 0.0181,
+        "jitter_frac_per_s": 0.0134,
+        "drift_frac_per_s": 0.0087,
+        "mean_tracked_frac": 0.998,
+        "scores": {
+          "handheld": 0.448,
+          "tilt_down": 0.4,
+          "pull_out": 0.282,
+          "orbit": 0.008
+        }
+      },
+      "shot_scale": "close_up",
+      "shot_scale_confidence": 0.35,
+      "subject": null,
+      "subject_action": null,
+      "lighting": {
+        "mean_luma": 44.97,
+        "contrast": 61.61,
+        "mean_saturation": 198.57,
+        "key": "low_key",
+        "contrast_class": "normal_contrast",
+        "saturation_class": "saturated",
+        "description": "low_key, normal_contrast, saturated"
+      },
+      "palette": [
+        "#04031a",
+        "#b17542",
+        "#351724",
+        "#c9a493",
+        "#764831"
+      ],
+      "speed_ramp": "slow_motion_or_locked",
+      "transition_out": "end",
+      "transition_out_confidence": 1.0,
+      "frames": [
+        {
+          "t": 20.706,
+          "path": "work/out/real_ad/frames/shot015_first_20.706.jpg",
+          "position": "first"
+        },
+        {
+          "t": 21.155,
+          "path": "work/out/real_ad/frames/shot015_dense_1_21.155.jpg",
+          "position": "dense_1"
+        },
+        {
+          "t": 21.604,
+          "path": "work/out/real_ad/frames/shot015_middle_21.604.jpg",
+          "position": "middle"
+        },
+        {
+          "t": 22.053,
+          "path": "work/out/real_ad/frames/shot015_dense_3_22.053.jpg",
+          "position": "dense_3"
+        }
+      ],
+      "role": "payoff",
+      "on_beat": false
+    }
+  ],
+  "audio": {
+    "has_audio": true,
+    "bpm": 117.45,
+    "beat_times": [
+      1.0449,
+      1.5325,
+      2.0434,
+      2.531,
+      3.0418,
+      3.5294,
+      4.0403,
+      4.5279,
+      5.0387,
+      5.5263,
+      6.0372,
+      6.5248,
+      7.0356,
+      7.5233,
+      8.0341,
+      8.5449,
+      9.0326,
+      9.5434,
+      10.031,
+      10.5419,
+      11.0295,
+      11.5403,
+      12.0279,
+      12.5388,
+      13.0264,
+      13.5372,
+      14.0249,
+      14.5357,
+      15.0233,
+      15.5341,
+      16.045,
+      16.5326,
+      17.0434,
+      17.5311,
+      18.0419,
+      18.5295,
+      19.0404,
+      19.528,
+      20.0388,
+      20.5264,
+      21.0373,
+      21.5249,
+      22.0357
+    ],
+    "n_beats": 43,
+    "cut_beat_alignment": 0.2667,
+    "cut_beat_detail": [
+      {
+        "cut": 0.5,
+        "nearest_beat_delta": 0.5449,
+        "on_beat": false
+      },
+      {
+        "cut": 0.9167,
+        "nearest_beat_delta": 0.1282,
+        "on_beat": false
+      },
+      {
+        "cut": 1.4167,
+        "nearest_beat_delta": 0.1158,
+        "on_beat": false
+      },
+      {
+        "cut": 2.0,
+        "nearest_beat_delta": 0.0434,
+        "on_beat": true
+      },
+      {
+        "cut": 2.5,
+        "nearest_beat_delta": 0.031,
+        "on_beat": true
+      },
+      {
+        "cut": 4.7083,
+        "nearest_beat_delta": 0.1804,
+        "on_beat": false
+      },
+      {
+        "cut": 5.8327,
+        "nearest_beat_delta": 0.2045,
+        "on_beat": false
+      },
+      {
+        "cut": 6.416,
+        "nearest_beat_delta": 0.1088,
+        "on_beat": false
+      },
+      {
+        "cut": 7.2493,
+        "nearest_beat_delta": 0.2137,
+        "on_beat": false
+      },
+      {
+        "cut": 9.041,
+        "nearest_beat_delta": 0.0084,
+        "on_beat": true
+      },
+      {
+        "cut": 11.041,
+        "nearest_beat_delta": 0.0115,
+        "on_beat": true
+      },
+      {
+        "cut": 13.2493,
+        "nearest_beat_delta": 0.2229,
+        "on_beat": false
+      },
+      {
+        "cut": 16.2493,
+        "nearest_beat_delta": 0.2043,
+        "on_beat": false
+      },
+      {
+        "cut": 18.666,
+        "nearest_beat_delta": 0.1365,
+        "on_beat": false
+      },
+      {
+        "cut": 20.666,
+        "nearest_beat_delta": 0.1396,
+        "on_beat": false
+      }
+    ],
+    "beat_tolerance": 0.08,
+    "music_driven_edit": false,
+    "voiceover_present": false,
+    "voiceover_coverage": 0.0,
+    "voiceover_confidence": "heuristic_spectral_no_asr",
+    "speech_segments": [],
+    "rms_envelope_path": "work/out/real_ad/audio.rms.npy"
+  },
+  "onscreen_text": [],
+  "provenance": {
+    "detector": {
+      "detector": "content",
+      "threshold": 27.0,
+      "luma_only": false
+    },
+    "detector_tuned_against_truth": true,
+    "fusion_policy": "review_flags",
+    "review_flags": [
+      {
+        "t": 12.402,
+        "reason": "motion_discontinuity_without_appearance_change",
+        "strength": 1.0,
+        "suggest": "possible jump cut inside a continuous take; confirm by eye"
+      },
+      {
+        "t": 19.441,
+        "reason": "motion_discontinuity_without_appearance_change",
+        "strength": 1.0,
+        "suggest": "possible jump cut inside a continuous take; confirm by eye"
+      }
+    ],
+    "motion_only_candidates": [
+      12.402,
+      19.441
+    ],
+    "appearance_only_cuts": [
+      6.416,
+      7.249
+    ],
+    "n_motion_pairs": 537,
+    "accuracy_vs_truth": {
+      "tolerance": 0.2,
+      "n_truth": 15,
+      "n_detected": 15,
+      "true_positives": 14,
+      "false_positives": 1,
+      "false_negatives": 1,
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1": 0.9333333333333333,
+      "mean_abs_error": 0.029389999999999934,
+      "matched": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.916667,
+          0.916667
+        ],
+        [
+          1.416667,
+          1.416667
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          2.5,
+          2.5
+        ],
+        [
+          4.708333,
+          4.708333
+        ],
+        [
+          5.791667,
+          5.832682
+        ],
+        [
+          7.208333,
+          7.249349
+        ],
+        [
+          9.0,
+          9.041016
+        ],
+        [
+          11.0,
+          11.041016
+        ],
+        [
+          13.208333,
+          13.249349
+        ],
+        [
+          16.208333,
+          16.249349
+        ],
+        [
+          18.625,
+          18.666016
+        ],
+        [
+          20.541667,
+          20.666016
+        ]
+      ],
+      "missed": [
+        3.5
+      ],
+      "spurious": [
+        6.416016
+      ]
+    }
+  }
+}

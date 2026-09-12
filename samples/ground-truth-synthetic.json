@@ -1,0 +1,180 @@
+{
+  "video": "work/refs/synthetic_ad.mp4",
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "total_duration": 27.5,
+  "n_shots": 16,
+  "bpm": 120,
+  "beat_seconds": 0.5,
+  "cut_times": [
+    0.5,
+    0.9,
+    1.5,
+    2.0,
+    2.8,
+    4.0,
+    5.0,
+    6.5,
+    7.6,
+    9.6,
+    11.4,
+    13.6,
+    16.6,
+    19.1,
+    23.1
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "label": "HOOK-1",
+      "start": 0.0,
+      "end": 0.5,
+      "duration": 0.5,
+      "camera_move": "whip_pan",
+      "source": "color=c=0xE8402A"
+    },
+    {
+      "index": 1,
+      "label": "HOOK-2",
+      "start": 0.5,
+      "end": 0.9,
+      "duration": 0.4,
+      "camera_move": "static",
+      "source": "color=c=0x121212"
+    },
+    {
+      "index": 2,
+      "label": "HOOK-3",
+      "start": 0.9,
+      "end": 1.5,
+      "duration": 0.6,
+      "camera_move": "push_in",
+      "source": "testsrc2"
+    },
+    {
+      "index": 3,
+      "label": "HOOK-4",
+      "start": 1.5,
+      "end": 2.0,
+      "duration": 0.5,
+      "camera_move": "whip_pan",
+      "source": "color=c=0xF5C518"
+    },
+    {
+      "index": 4,
+      "label": "HOOK-5",
+      "start": 2.0,
+      "end": 2.8,
+      "duration": 0.8,
+      "camera_move": "pull_out",
+      "source": "color=c=0x0B6E4F"
+    },
+    {
+      "index": 5,
+      "label": "BUILD-1",
+      "start": 2.8,
+      "end": 4.0,
+      "duration": 1.2,
+      "camera_move": "static",
+      "source": "smptebars"
+    },
+    {
+      "index": 6,
+      "label": "BUILD-2",
+      "start": 4.0,
+      "end": 5.0,
+      "duration": 1.0,
+      "camera_move": "orbit",
+      "source": "color=c=0x1F3A93"
+    },
+    {
+      "index": 7,
+      "label": "BUILD-3",
+      "start": 5.0,
+      "end": 6.5,
+      "duration": 1.5,
+      "camera_move": "push_in",
+      "source": "color=c=0x808080"
+    },
+    {
+      "index": 8,
+      "label": "BUILD-4",
+      "start": 6.5,
+      "end": 7.6,
+      "duration": 1.1,
+      "camera_move": "static",
+      "source": "color=c=0x828282"
+    },
+    {
+      "index": 9,
+      "label": "MID-1",
+      "start": 7.6,
+      "end": 9.6,
+      "duration": 2.0,
+      "camera_move": "orbit",
+      "source": "rgbtestsrc"
+    },
+    {
+      "index": 10,
+      "label": "MID-2",
+      "start": 9.6,
+      "end": 11.4,
+      "duration": 1.8,
+      "camera_move": "handheld",
+      "source": "color=c=0x6A2C70"
+    },
+    {
+      "index": 11,
+      "label": "MID-3",
+      "start": 11.4,
+      "end": 13.6,
+      "duration": 2.2,
+      "camera_move": "top_down",
+      "source": "color=c=0xEDEDED"
+    },
+    {
+      "index": 12,
+      "label": "PAY-1",
+      "start": 13.6,
+      "end": 16.6,
+      "duration": 3.0,
+      "camera_move": "push_in",
+      "source": "testsrc2"
+    },
+    {
+      "index": 13,
+      "label": "PAY-2",
+      "start": 16.6,
+      "end": 19.1,
+      "duration": 2.5,
+      "camera_move": "orbit",
+      "source": "color=c=0x0A1A2F"
+    },
+    {
+      "index": 14,
+      "label": "PAY-3",
+      "start": 19.1,
+      "end": 23.1,
+      "duration": 4.0,
+      "camera_move": "static",
+      "source": "color=c=0xD94F2B"
+    },
+    {
+      "index": 15,
+      "label": "PAY-4",
+      "start": 23.1,
+      "end": 27.5,
+      "duration": 4.4,
+      "camera_move": "pull_out",
+      "source": "color=c=0x101820"
+    }
+  ],
+  "hard_cases": {
+    "similar_luma_pair": [
+      7,
+      8
+    ],
+    "note": "shots 7,8 are 0x808080 vs 0x828282 - near-identical luma"
+  }
+}

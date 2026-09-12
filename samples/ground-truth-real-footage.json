@@ -1,0 +1,216 @@
+{
+  "video": "work/refs/real_composite_ad.mp4",
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "total_duration": 22.541667,
+  "n_shots": 16,
+  "bpm": 120,
+  "beat_seconds": 0.5,
+  "cut_times": [
+    0.5,
+    0.916667,
+    1.416667,
+    2.0,
+    2.5,
+    3.5,
+    4.708333,
+    5.791667,
+    7.208333,
+    9.0,
+    11.0,
+    13.208333,
+    16.208333,
+    18.625,
+    20.541667
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 1.0,
+      "start": 0.0,
+      "end": 0.5,
+      "duration": 0.5,
+      "role": "hook",
+      "start_frame": 0,
+      "end_frame": 12
+    },
+    {
+      "index": 1,
+      "source": "src_Big_Buck_Bunny_720_10s_5MB.mp4",
+      "in_point": 2.0,
+      "start": 0.5,
+      "end": 0.916667,
+      "duration": 0.416667,
+      "role": "hook",
+      "start_frame": 12,
+      "end_frame": 22
+    },
+    {
+      "index": 2,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 4.5,
+      "start": 0.916667,
+      "end": 1.416667,
+      "duration": 0.5,
+      "role": "hook",
+      "start_frame": 22,
+      "end_frame": 34
+    },
+    {
+      "index": 3,
+      "source": "src_Sintel_1080_10s_5MB.mp4",
+      "in_point": 1.5,
+      "start": 1.416667,
+      "end": 2.0,
+      "duration": 0.583333,
+      "role": "hook",
+      "start_frame": 34,
+      "end_frame": 48
+    },
+    {
+      "index": 4,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 5.2,
+      "start": 2.0,
+      "end": 2.5,
+      "duration": 0.5,
+      "role": "hook",
+      "start_frame": 48,
+      "end_frame": 60
+    },
+    {
+      "index": 5,
+      "source": "src_Big_Buck_Bunny_720_10s_5MB.mp4",
+      "in_point": 5.0,
+      "start": 2.5,
+      "end": 3.5,
+      "duration": 1.0,
+      "role": "build",
+      "start_frame": 60,
+      "end_frame": 84
+    },
+    {
+      "index": 6,
+      "source": "src_Big_Buck_Bunny_720_10s_5MB.mp4",
+      "in_point": 6.2,
+      "start": 3.5,
+      "end": 4.708333,
+      "duration": 1.208333,
+      "role": "build",
+      "start_frame": 84,
+      "end_frame": 113
+    },
+    {
+      "index": 7,
+      "source": "src_Sintel_1080_10s_5MB.mp4",
+      "in_point": 3.0,
+      "start": 4.708333,
+      "end": 5.791667,
+      "duration": 1.083333,
+      "role": "build",
+      "start_frame": 113,
+      "end_frame": 139
+    },
+    {
+      "index": 8,
+      "source": "src_Sintel_1080_10s_5MB.mp4",
+      "in_point": 4.3,
+      "start": 5.791667,
+      "end": 7.208333,
+      "duration": 1.416667,
+      "role": "build",
+      "start_frame": 139,
+      "end_frame": 173
+    },
+    {
+      "index": 9,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 7.0,
+      "start": 7.208333,
+      "end": 9.0,
+      "duration": 1.791667,
+      "role": "mid",
+      "start_frame": 173,
+      "end_frame": 216
+    },
+    {
+      "index": 10,
+      "source": "src_Big_Buck_Bunny_720_10s_5MB.mp4",
+      "in_point": 0.5,
+      "start": 9.0,
+      "end": 11.0,
+      "duration": 2.0,
+      "role": "mid",
+      "start_frame": 216,
+      "end_frame": 264
+    },
+    {
+      "index": 11,
+      "source": "src_Sintel_1080_10s_5MB.mp4",
+      "in_point": 6.0,
+      "start": 11.0,
+      "end": 13.208333,
+      "duration": 2.208333,
+      "role": "mid",
+      "start_frame": 264,
+      "end_frame": 317
+    },
+    {
+      "index": 12,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 2.5,
+      "start": 13.208333,
+      "end": 16.208333,
+      "duration": 3.0,
+      "role": "payoff",
+      "start_frame": 317,
+      "end_frame": 389
+    },
+    {
+      "index": 13,
+      "source": "src_Big_Buck_Bunny_720_10s_5MB.mp4",
+      "in_point": 7.5,
+      "start": 16.208333,
+      "end": 18.625,
+      "duration": 2.416667,
+      "role": "payoff",
+      "start_frame": 389,
+      "end_frame": 447
+    },
+    {
+      "index": 14,
+      "source": "src_Sintel_1080_10s_5MB.mp4",
+      "in_point": 8.0,
+      "start": 18.625,
+      "end": 20.541667,
+      "duration": 1.916667,
+      "role": "payoff",
+      "start_frame": 447,
+      "end_frame": 493
+    },
+    {
+      "index": 15,
+      "source": "src_Jellyfish_720_10s_5MB.mp4",
+      "in_point": 8.0,
+      "start": 20.541667,
+      "end": 22.541667,
+      "duration": 2.0,
+      "role": "payoff",
+      "start_frame": 493,
+      "end_frame": 541
+    }
+  ],
+  "hard_cases": {
+    "same_source_adjacent_cut_indices": [
+      6,
+      8
+    ],
+    "same_source_adjacent_cut_times": [
+      3.5,
+      5.791667
+    ],
+    "note": "cuts between two moments of the same clip: identical palette, grain and subject world"
+  }
+}
